@@ -2,14 +2,14 @@
 
 This project implements an emotion detection system using IBM Watson NLP's Emotion Predict API, wrapped in a Flask web application.
 
-## Features
+## Features 
 
 - Analyze emotions (anger, disgust, fear, joy, sadness) from input text
 - Returns dominant emotion with scores for each emotion
 - Handles blank inputs gracefully with error messages
 - Web interface built with Flask for easy user interaction
 
-## Project Structure
+## Project Structure 
 
 - `EmotionDetection/` - Python package containing the emotion detection logic
 - `server.py` - Flask web server for deployment
