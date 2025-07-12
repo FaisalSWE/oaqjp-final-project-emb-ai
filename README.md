@@ -17,7 +17,7 @@ This project implements an emotion detection system using IBM Watson NLP's Emoti
 - `static/mywebscript.js` - JavaScript for frontend interactions (provided)
 - `test_emotion_detection.py` - Unit tests for emotion detection functionality
 
-## How to Run
+## How to Run 
 
 1. Clone the repository and navigate to the project folder.
 2. Install required packages:
@@ -33,8 +33,8 @@ This project implements an emotion detection system using IBM Watson NLP's Emoti
    ```arduino
    http://localhost:5000
    ```
-5. Enter text to analyze emotions.
-## Testing
+5. Enter text to analyze emotions. 
+## Testing 
 Run unit tests with:
 ```bash
 python3 test_emotion_detection.py
