@@ -11,10 +11,13 @@ def index():
 def emotion_detect_route():
     if request.method == 'POST':
         text = request.form['text']
-    else:  # GET
+    else:
         text = request.args.get('textToAnalyze')
 
     result = emotion_detector(text)
+
+    if result['dominant_emotion'] is None:
+        return "Invalid text! Please try again."
 
     formatted_result = (
         f"For the given statement, the system response is "
@@ -27,3 +30,4 @@ def emotion_detect_route():
     )
 
     return formatted_result
+
